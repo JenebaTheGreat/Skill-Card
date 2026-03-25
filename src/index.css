@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-app: #f6f7fb;
+}
+
+body {
+  background-color: var(--color-bg-app);
+  background-image:
+    radial-gradient(circle at top left, rgba(91,108,255,0.08), transparent 30%),
+    radial-gradient(circle at top right, rgba(15,157,88,0.05), transparent 20%);
+  background-attachment: fixed;
+  color: #1d2433;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+}
